@@ -28,7 +28,8 @@ const foo = ({ token }) => {
         }
 
     }
-    return<div>Foo</div>
+    return<div>
+        <Navbar />Foo</div>
 }
 export default withAuth(foo)
 
